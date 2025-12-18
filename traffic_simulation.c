@@ -30,6 +30,7 @@ void initialize_system() {
     }
 }
 
+//simulation function
 void simulate_roads_parallel() {
     #pragma omp parallel for
     for (int i = 0; i < ROADS; i++) {
